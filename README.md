@@ -1,3 +1,5 @@
+Developed by : Deepshika Hemanth kumar
+register number : 212224220020
 # BOOLEAN_FUNCTION_MINIMIZATION
 
 **AIM:**
@@ -17,6 +19,8 @@ Hardware – PCs, Cyclone II , USB flasher
 **Theory**
 
 **Logic Diagram**
+![Screenshot 2025-03-20 112605](https://github.com/user-attachments/assets/4bf8425d-cd6b-4c35-9e5b-b6b71c18fd3c)
+
 
 **Procedure**
 
@@ -32,13 +36,11 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
-
+ Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+![Screenshot 2025-03-18 213647](https://github.com/user-attachments/assets/9ff0bff8-d2af-4727-af6f-3216e978e3f0)
 
 **RTL realization**
+![Screenshot 2025-03-20 113523](https://github.com/user-attachments/assets/d74ca8ff-26b9-4149-a55b-7c351ffc5380)
 
 **Output:**
 

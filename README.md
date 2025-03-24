@@ -1,9 +1,6 @@
-Developed by : Deepshika Hemanth kumar
+## BOOLEAN_FUNCTION_MINIMIZATION
 
-register number : 212224220020
-# BOOLEAN_FUNCTION_MINIMIZATION
-
-**AIM:**
+**Aim:**
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -15,16 +12,17 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
-
 **Theory**
 
-![Screenshot 2025-03-18 213647](https://github.com/user-attachments/assets/e1740a44-2ae4-4921-9b18-17c32bf53133)
+In this experiment, combinational logic functions are implemented using Verilog HDL and verified through simulation in Quartus software. The given functions F1 and F2 are in Sum of Products (SOP) form, which are combinations of AND, OR, and NOT gates.
 
+-> F1 is a 4-variable logic function with inputs A, B, C, D.
 
-**Logic Diagram**
+-> F2 is a 4-variable logic function with inputs w, x, y, z.
 
-![Screenshot 2025-03-20 112605](https://github.com/user-attachments/assets/d96c68d1-628c-4909-acd0-4b9f189137f3)
+Using Verilog, the Boolean expressions are coded using assign statements, which create combinational circuits. The design is then compiled and simulated in Quartus, where input combinations are applied, and outputs F1 and F2 are observed in the waveform to verify correctness.
+
+This process helps in understanding digital circuit design and simulation using HDL and FPGA tools.
 
 
 **Procedure**
@@ -41,20 +39,32 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
- Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
- ![Screenshot 2025-03-20 113633](https://github.com/user-attachments/assets/a3089539-25e8-4715-8dd8-df7fec5201b1)
+```
+## DEVELOPED BY:ROSHAN.G
+## REGISTER NUMBER:212223040176
+
+```
+
+/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+
+![ex 2 prog](https://github.com/user-attachments/assets/9b6f7888-35b9-4d0f-ac26-0c47939d7903)
 
 
-**RTL realization**
-![Screenshot 2025-03-20 113523](https://github.com/user-attachments/assets/c942da27-6782-4366-9500-8172f270ac9f)
+**Truth Table**
 
+![WhatsApp Image 2024-11-21 at 11 34 59_158c6d9f](https://github.com/user-attachments/assets/180440d0-631d-45bf-a85a-4508c9f41e65)
 
-**Output:**
+![WhatsApp Image 2024-11-21 at 11 34 59_05329a2a](https://github.com/user-attachments/assets/e7443311-e06d-405a-9194-a60e492f0585)
+
 
 **RTL**
 
-**Timing Diagram**
+![ex 2 dia](https://github.com/user-attachments/assets/0bf90835-30a3-44fd-bf12-056eed920ca1)
+
+**Waveform**
+
+![ex 2 sim](https://github.com/user-attachments/assets/9f514bbb-2e32-4630-85fa-4ae25d00bf72)
 
 **Result:**
 
